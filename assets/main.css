@@ -320,3 +320,6 @@ footer .pie a{
     text-decoration: none;
     text-align: center;
 }
+footer .pie a:hover{
+    text-decoration: underline;
+}
