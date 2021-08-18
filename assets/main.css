@@ -1,0 +1,322 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin: 40px auto 5px;
+    width: 270px;
+    position: relative;
+}
+header .centralitemslogo{
+    position: absolute;
+    top: 180px;
+    left: 35px;
+}
+header .logoheader{
+    display: inline-block;
+    margin: 12px 35px;
+    align-items: center;
+
+}
+header .logoheader .centrallogo img{
+    width: 176px;
+    height: 32px;
+}
+header .logoheader p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    width: 176px;
+    height: 32px;
+    margin-top: 5px;
+}
+main .centralitems{
+    position: relative;
+    width: 546px;
+    height: 325px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+main a{
+    text-decoration: none;
+    color: #36c;
+    outline: 0;
+    font-size: 16px;
+    font-weight: bold;
+    width: 156px;
+    height: 45px;
+}
+main p{
+    margin-top: 4px;
+    color:#54595d;
+}
+main .centralitems div:hover{
+    background-color: #eaecf0;
+    cursor: pointer;
+}
+main .centralitems div:hover a{
+    text-decoration: underline;
+}
+
+main .centralitems .div1{
+    position: absolute;
+    top: 0;
+    right: 60%;
+    width: 156px;
+}
+main .centralitems .div2{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    width: 156px;
+}
+main .centralitems .div3{
+    position: absolute;
+    top: 20%;
+    right: 70%;
+    width: 156px;
+}
+main .centralitems .div4{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    width: 156px;
+}
+main .centralitems .div5{
+    position: absolute;
+    top: 40%;
+    right: 72%;
+    width: 156px;
+}
+main .centralitems .div6{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    width: 156px;
+}
+main .centralitems .div7{
+    position: absolute;
+    top: 60%;
+    right: 70%;
+    width: 156px;
+}
+main .centralitems .div8{
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    width: 156px;
+}
+main .centralitems .div9{
+    position: absolute;
+    top: 80%;
+    right: 60%;
+    width: 156px;
+}
+main .centralitems .div10{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    width: 156px;
+}
+main .searchcontainer{
+    max-width: 95%;
+    width: 540px;
+    margin: .4rem auto 1.95rem;
+    text-align: center;
+}
+main .searchcontainer .form{
+    margin: 0;
+    padding: .56rem 0 1.2rem;
+}
+main .searchcontainer .form .search-input{
+    display: flex;
+    align-items: center;
+    width: 83%;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    height: 44px;
+    margin: 0 auto;
+}
+main .searchcontainer .form .search-input:hover{
+    border-color: #72777d;
+}
+
+main .searchcontainer .form .search-input input{
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    width: 100vw;
+    padding: 8px 9.6px 8px 12px;
+    margin: 0 0 0 12px;
+}
+main .searchcontainer .form .search-input .searchIcons{
+    width: 40px;
+    margin-right: 10px;
+}
+main .searchcontainer .form .search-input .searchIcons a{
+    display: flex;
+    justify-content: flex-end;
+    color: #54595d;
+    font-size: 13px;
+    font-weight: normal;
+    width: 40px;
+    align-items: center;
+}
+main .searchcontainer .form .search-input .searchIcons img{
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+}
+main .searchcontainer .form .search-input .searchIcons2{
+    display: flex;
+    width: 56px;
+    height: 100%;
+    border: 1px solid #36c;
+    background-color: #36c;
+}
+main .searchcontainer .form .search-input .searchIcons2 img{
+    margin-top: 10px;
+    width: 25px;
+    filter: brightness(0) invert(1);
+}
+main .button{
+    text-align: center;
+}
+main .button button{
+    background-color: #f8f9fa;
+    display: inline;
+    position: relative;
+    margin: 0 auto;
+    padding: 6px 1.2px;
+    outline: 16px solid #fff;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    color: #36c;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+main .button .chino{
+    margin-right: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+main .button .chino img{
+    margin-left: 10px;
+    
+    width: 22px;
+    height: 22px;
+}
+main .button .texto{
+    padding: 0 6.4px; 
+    vertical-align: middle;
+}
+main .button .flecha{
+    display: inline-block;
+    vertical-align: middle;
+}
+main .button .flecha img{
+    margin-left: 0px;   
+    width: 20px;
+    height: 22px;
+}
+
+footer .footer {
+    border-top: 1px solid #c8ccd1;
+    display: flex;
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 41.6px 12.8px 12.8px;
+    font-size: 13px;
+    border-bottom: 1px solid #c8ccd1;
+}
+footer .section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+}
+footer .section1 .first{
+    width: 260px;
+    margin-bottom: 32px;
+}
+footer .section1 .first .ul{
+    display: flex;
+    margin-left: 5px;
+    padding: 0;
+}
+footer .section1 .first .ul img{
+    width: 42px;
+    height: 42px;
+    margin-right: 10px;
+}
+footer .section1 .first .ul .txt p{
+    color: #54595d;
+    width: auto;
+}
+footer .section1 .first .ul .txt a{
+    color:  #36c;
+    text-decoration: none;
+}
+footer .section1 .first .ul .txt a:hover{
+    text-decoration: underline;
+}
+footer .section2{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin-left: 20px;
+}
+footer .section2 li{
+    list-style: none;
+    margin-bottom: 5px;
+    height: 90px;
+}
+footer .section2 li a{
+    display: flex;
+    text-decoration: none;
+    padding: 13px;
+}
+footer .section2 li a:hover{
+    background-color: #eaecf0;
+}
+footer .section2 li a .pcolor{
+    color: #36c;
+    margin: 0 0 5px 0;
+}
+footer .section2 li a p{
+    color: #54595d;
+    margin: 0;
+}
+footer .section2 li a img{
+    margin-top: 15px;
+    width: 42px;
+    height: 42px;
+}
+footer ul{
+    margin:0;
+    padding: 0;
+}
+footer .pie{
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+}
+footer .pie p{
+    color: #54595d;
+    margin: 0;
+}
+footer .pie li{
+    color: #54595d;
+}
+footer .pie a{
+    color: #36c;
+    margin: 0 15px 0 5px;
+    text-decoration: none;
+    text-align: center;
+}
